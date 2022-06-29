@@ -1,0 +1,22 @@
+import time
+from tracemalloc import start
+from turtle import st
+
+def time_conversion(seconds):
+    minutes = seconds // 60
+    seconds = seconds % 60
+    hours = minutes // 60
+    minutes = minutes % 60
+    #Need to make seconds value shorter on screen
+    print("Time Lapsed = {0}:{1}:{2}".format(int(hours), int(minutes), seconds))
+
+
+input("Press Enter to Start")
+start_time = time.time()
+
+input("Press Enter to Stop")
+end_time = time.time()
+
+time_lapsed = end_time - start_time
+time_conversion(time_lapsed)
+
