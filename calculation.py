@@ -1,6 +1,5 @@
 import time
-from tracemalloc import start
-from turtle import st
+
 
 def time_conversion(seconds):
     minutes = seconds // 60
