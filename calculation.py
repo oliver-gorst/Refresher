@@ -4,6 +4,7 @@ import time
 def time_conversion(seconds):
     minutes = seconds // 60
     seconds = seconds % 60
+    seconds = str(round(seconds,2))
     hours = minutes // 60
     minutes = minutes % 60
     #Need to make seconds value shorter on screen
@@ -12,6 +13,8 @@ def time_conversion(seconds):
 
 input("Press Enter to Start")
 start_time = time.time()
+
+print("_______________________________________________________________")
 
 input("Press Enter to Stop")
 end_time = time.time()
