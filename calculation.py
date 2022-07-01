@@ -11,6 +11,8 @@ def time_conversion(seconds):
     print("Time Lapsed = {0}:{1}:{2}".format(int(hours), int(minutes), seconds))
 
 
+print("After pressing Enter to start the timer, press Enter again once 5 seconds has passed.")
+
 input("Press Enter to Start")
 start_time = time.time()
 
@@ -21,4 +23,5 @@ end_time = time.time()
 
 time_lapsed = end_time - start_time
 time_conversion(time_lapsed)
+
 
