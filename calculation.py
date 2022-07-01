@@ -14,7 +14,7 @@ def time_conversion(seconds):
 input("Press Enter to Start")
 start_time = time.time()
 
-print("_______________________________________________________________")
+print("________________________________________________________________")
 
 input("Press Enter to Stop")
 end_time = time.time()
