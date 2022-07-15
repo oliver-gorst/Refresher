@@ -4,11 +4,11 @@ import time
 def time_conversion(seconds):
     minutes = seconds // 60
     seconds = seconds % 60
-    seconds = str(round(seconds,2))
+    seconds = str(round(seconds,3))
     hours = minutes // 60
     minutes = minutes % 60
-    #Need to make seconds value shorter on screen
     print("Time Lapsed = {0}:{1}:{2}".format(int(hours), int(minutes), seconds))
+    #Take the difference here and display how close the user was to getting the correct answer
 
 
 print("After pressing Enter to start the timer, press Enter again once 5 seconds has passed.")
