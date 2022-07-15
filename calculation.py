@@ -16,7 +16,7 @@ print("After pressing Enter to start the timer, press Enter again once 5 seconds
 input("Press Enter to Start")
 start_time = time.time()
 
-print("________________________________________________________________")
+print("______________________________________")
 
 input("Press Enter to Stop")
 end_time = time.time()
